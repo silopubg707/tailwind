@@ -1,0 +1,108 @@
+/* .box1,
+.box2 {
+  width: 45%;
+  height: 200px;
+  background-color: red;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 680px) {
+  .box1,
+  .box2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .flex {
+    flex-wrap: wrap;
+  }
+} */
+/* .box1,
+.box2,
+.box3 {
+  width: 30%;
+  background-color: red;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 577px) {
+  .box1,
+  .box2,
+  .box3 {
+    width: 45%;
+  }
+} */
+
+:root {
+  --pColor: #fff;
+  --divColor: #424242;
+  --bodyColor: #fff;
+}
+
+h1 {
+  font-size: 50px;
+}
+.box {
+  width: 23%;
+  background-color: var(--divColor);
+  margin-bottom: 10px;
+}
+.box1 {
+  background-color: var(--divColor);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+p {
+  color: var(--pColor);
+}
+
+@media (max-width: 576px) {
+  .box {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  .box {
+    width: 48%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .box {
+    width: 33%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+body {
+  background-color: var(--bodyColor);
+}
+
+body.dark {
+  --pColor: #424242;
+  --divColor: #fff;
+  --bodyColor: #424242;
+}

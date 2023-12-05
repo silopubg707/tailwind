@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flags</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header>
+      <div class="container">
+        <div class="flex">
+          <a href="" class="logo"> Where in the world? </a>
+          <button class="mode-btn" id="btn">
+            <i class="fa-regular fa-moon"></i>
+            Change Mode
+          </button>
+        </div>
+      </div>
+   
+    </header>
+
+    <script>
+      const body = document.getElementById("body");
+      const btn = document.getElementById("btn");
+
+      btn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+      });
+    </script>
+    <main>
+      <div class="container">
+       <button >
+        <a href="./index.html"><i class="fa-solid fa-arrow-left"></i> Back</a>
+       </button>
+      <div class="flex">
+        <div class="w-50">
+          <img src="./images/germany.png" alt="" width="100%">
+        </div>
+        <div class="w-50">
+          
+          <ul>
+            <li>
+              <h1 class="gap-5">
+                Belgium
+              </h1>
+              <p>Native Name: België Population: 11,319,511 Region: Europe Sub Region: Western Europe Capital: Brussels</p>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      </div>
+      
+    </main>
+  </body>
+</html>

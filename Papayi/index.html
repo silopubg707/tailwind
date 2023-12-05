@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papayi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="d-flex">
+        <a href="#" class="logo">
+          <img src="./img/logo.svg" alt="logo" />
+        </a>
+        <nav id="nav" class="close">
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <button class="main-btn">
+                <a href="#"> Schedule a Demo </a>
+              </button>
+            </li>
+            <button id="times-btn">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </ul>
+        </nav>
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+
+
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="d-flex">
+        <div class="w-50">
+          <h1 class="box2">Start building with our APIs for absolutely free.</h1>
+          <div class="search">
+            <input class="box3" type="Enter email address">
+            <button class="main-btn">
+              <a href="#"> Schedule a Demo </a>
+            </button>
+          </div>
+        </div>
+        <div class="w-50">
+          <img src="./img/Group 30.svg" alt="" width="100%">
+
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+<script>
+  const nav = document.getElementById("nav");
+  const menuBtn = document.getElementById("menu-btn");
+  const timesBtn = document.getElementById("times-btn");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("show");
+    nav.classList.remove("close");
+  });
+  timesBtn.addEventListener("click", () => {
+    nav.classList.remove("show");
+    nav.classList.add("close");
+  });
+</script>
+
+</html>

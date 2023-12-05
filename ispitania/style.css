@@ -1,0 +1,104 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    animation: anime 4s linear infinite;
+  }
+  
+  @keyframes anime {
+    25% {
+      transform: translateX(300px);
+    }
+    50% {
+      transform: translateX(300px) translateY(200px);
+    }
+    75% {
+      transform: translateY(200px);
+    }
+  } */
+
+  .body {
+    padding: 100px 300px;
+  }
+  [class^="box"] {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(47, 47, 108);
+    color: #fff;
+    animation: anime 2.8s ease infinite;
+    border-radius: 50%;
+  }
+  .flex {
+    display: flex;
+  }
+
+  .box4,
+  .box8 {
+    animation-delay: 0.1s;
+  }
+  
+  .box,
+  .box5,
+  .box9 {
+    animation-delay: 0.1s;
+  }
+  .box2,
+  .box6 {
+    animation-delay: 0.5s;
+  }
+  .box3 {
+    animation-delay: 0.3s;
+  }
+
+
+  @keyframes anime {
+    50%{
+        transform: scale(0);
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .parent {
+    width: 200px;
+    height: 200px;
+    background-color:   rgb(255, 255, 255);
+    position: relative;
+    margin-top: 20px;
+}
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 90px;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+
+}
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 20px;
+    bottom: 150;
+    right: 150;
+    margin-top: 20px;
+}

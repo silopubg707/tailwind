@@ -1,0 +1,17 @@
+main {
+  background-color: #fce08e;
+  padding: 150px 0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fce08e;
+  z-index: 11111111111;
+}
+.last-section {
+  background-color: #f5aa48;
+  padding: 100px 0;
+}
+footer {
+  background-color: #fce08e;
+}

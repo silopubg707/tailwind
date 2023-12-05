@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flags</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header>
+      <div class="container">
+        <div class="flex">
+          <a href="" class="logo"> Where in the world? </a>
+          <button class="mode-btn" id="btn">
+            <i class="fa-regular fa-moon"></i>
+            Change Mode
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <form action="">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search for a country…"
+          />
+        </form>
+
+        <div class="container">
+          <div class="flex">
+            <div class="w-25 country">
+              <img src="./images/germany.png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (1).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (2).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (3).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (4).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (5).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (6).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+
+            <div class="w-25 country">
+              <img src="./images/1280px-Flag_of_Germany.svg (7).png" alt="" width="100%" />
+              <h3 class="country-title">Germany</h3>
+              <ul>
+                <li>Population: 81,770,900</li>
+                <li>Region: Europe</li>
+                <li>Capital: Berlin</li>
+              </ul>
+              <a href="./about.html">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const body = document.getElementById("body");
+      const btn = document.getElementById("btn");
+
+      btn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

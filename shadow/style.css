@@ -1,0 +1,66 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #9c6565;
+    margin: 100px;
+
+}
+.div1 {
+    box-shadow: 20px 10px grey;
+}
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #2a23e6;
+    margin: 100px;
+
+}
+.div2 {
+    box-shadow: 60px 50px grey;
+}
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #2b0d2f;
+    margin: 100px;
+
+}
+.div3 {
+    box-shadow: 20px 20px 20px 10px red;
+}
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #03005b;
+    margin: 100px;
+
+}
+.div4 {
+    box-shadow: 20px 20px 50px 10px rgb(68, 255, 0) inset;
+}
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #1d081b;
+    margin: 100px;
+
+}
+.div5 {
+    box-shadow: 20px 20px 20px 5px blue;
+}
+div {
+    width: 200px;
+    height: 100px;
+    background-color: #1d081b;
+    margin: 100px;
+
+}
+.div6 {
+    -webkit-box-shadow: 100px 70px 100px 100px rgba(0, 103, 181, 0.52);
+-moz-box-shadow: 100px 70px 100px 100px rgba(0, 103, 181, 0.52);
+box-shadow: 100px 70px 100px 100px rgba(0, 103, 181, 0.52);
+}
+model-viewer {
+    width: 900px;
+    height: 900px;
+}

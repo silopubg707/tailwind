@@ -1,0 +1,72 @@
+.box{
+    width: 1960px;
+    height: 960px;
+}
+.img{
+    width: 257px;
+    height: 51px;
+}
+.img2{
+    width: 677px;
+    height: 626px;
+}
+.text{
+    text-shadow: 5px 4px 2px rgba(210,112,210,0.6);
+}
+
+.div1{
+    -webkit-box-shadow: 4px 4px 11px 13px rgba(0, 255, 19, 0.2);
+    -moz-box-shadow: 4px 4px 11px 13px rgba(0, 255, 19, 0.2);
+    box-shadow: 4px 4px 11px 13px rgba(0, 255, 19, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div2{
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(122, 161, 125, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(122, 161, 125, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(122, 161, 125, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div3{
+    -webkit-box-shadow: 3px 4px 2px 2px rgba(122, 161, 125, 0.2);
+    -moz-box-shadow: 3px 4px 2px 2px rgba(122, 161, 125, 0.2);
+    box-shadow: 3px 4px 2px 2px rgba(122, 161, 125, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div4{
+    -webkit-box-shadow: 0px 4px 13px 11px rgba(102, 118, 104, 0.2);
+    -moz-box-shadow: 0px 4px 13px 11px rgba(102, 118, 104, 0.2);
+    box-shadow: 0px 4px 13px 11px rgba(102, 118, 104, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div5{
+    -webkit-box-shadow: 0px 4px 0px 3px rgba(102, 118, 104, 0.2);
+    -moz-box-shadow: 0px 4px 0px 3px rgba(102, 118, 104, 0.2);
+    box-shadow: 0px 4px 0px 3px rgba(102, 118, 104, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div6{
+    -webkit-box-shadow: 0px 11px 13px 0px rgba(236, 0, 0, 0.2);
+    -moz-box-shadow: 0px 11px 13px 0px rgba(236, 0, 0, 0.2);
+    box-shadow: 0px 11px 13px 0px rgba(236, 0, 0, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div7{
+    -webkit-box-shadow: 0px 11px 19px 21px rgba(0, 210, 255, 0.2);
+    -moz-box-shadow: 0px 11px 19px 21px rgba(0, 210, 255, 0.2);
+    box-shadow: 0px 11px 19px 21px rgba(0, 210, 255, 0.2);
+    width: 94px;    
+    height: 94px;
+}
+.div8{
+    -webkit-box-shadow: 0px 11px 19px 21px rgba(142, 144, 144, 0.2);
+    -moz-box-shadow: 0px 11px 19px 21px rgba(142, 144, 144, 0.2);
+    box-shadow: 0px 11px 19px 21px rgba(142, 144, 144, 0.2);
+    width: 94px;    
+    height: 94px;
+}

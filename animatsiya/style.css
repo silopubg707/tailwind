@@ -1,0 +1,57 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    animation: anime 4s linear infinite;
+  }
+  
+  @keyframes anime {
+    25% {
+      transform: translateX(300px);
+    }
+    50% {
+      transform: translateX(300px) translateY(200px);
+    }
+    75% {
+      transform: translateY(200px);
+    }
+  } */
+
+  .body {
+    padding: 100px 300px;
+  }
+  [class^="box"] {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    animation: anime 2.8s ease infinite;
+  }
+  .flex {
+    display: flex;
+  }
+
+  .box4,
+  .box8 {
+    animation-delay: 0.2s;
+  }
+  
+  .box,
+  .box5,
+  .box9 {
+    animation-delay: 0.4s;
+  }
+  .box2,
+  .box6 {
+    animation-delay: 0.6s;
+  }
+  .box3 {
+    animation-delay: 0.8s;
+  }
+
+
+  @keyframes anime {
+    50%{
+        transform: scale(0);
+    }
+  }

@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "Новая папка (2)",
+			"path": "../.."
+		},
+		{
+			"name": "kubik",
+			"path": "../../../kubik"
+		},
+		{
+			"name": "pubg",
+			"path": "../../../pubg"
+		},
+		{
+			"name": "pubggg",
+			"path": "../../../pubggg"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Новая папка (2)"
+	}
+}
